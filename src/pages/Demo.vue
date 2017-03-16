@@ -1,12 +1,12 @@
 <template>
-    <div id="index">
-        <h1 @click="toIndex">我是Create</h1>
+    <div id="demo">
+        <h1 @click="toIndex">我是Demo</h1>
     </div>
 </template>
 
 <script>
 export default{
-    name:"index",
+    name:"demo",
     methods:{
         toIndex(){
             this.$http.get("/j/user/ahbei").then(function(a){

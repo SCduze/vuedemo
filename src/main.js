@@ -5,7 +5,7 @@ import VueRouter from 'vue-router'
 import Vueresource from "vue-resource"
 Vue.use(VueRouter)
 Vue.use(Vueresource)
-import Create from './pages/Create.vue'
+import Create from './pages/Demo.vue'
 import Index from './pages/Index.vue'
 
 
